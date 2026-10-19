@@ -12,7 +12,7 @@ FoodWise is a recipe recommendation project aligned with **UN Sustainable Develo
 
 ## Project Overview
 
-- **Report (PDF):** `report/Sunar_Tan_Acikel_Ozyakup_Group5.pdf` (or `report/FoodWise_Concept_Note_Group5.pdf`)
+- **Report (PDF):** `report/Sunar_Tan_Acikel_Ozyakup_Group5.pdf`
 - **EDA Notebook:** `notebooks/FoodWise_Assignment1.ipynb`
 - **Dataset:** Curated sample of 8,000 real recipes from Food.com (`data/recipes_sample.jsonl`)
 - **Example Inventory:** Sample pantry ingredients with use-by dates (`data/example_inventory.json`)
