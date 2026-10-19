@@ -1,0 +1,16 @@
+{
+  "scenario_type": "Illustrative inventory, not an observed business dataset",
+  "as_of": "2026-10-17",
+  "quantity_usage": "Amounts are retained as input examples. Gram and portion feasibility is not calculated in Assignment 1.",
+  "items": [
+    {"ingredient": "chicken pieces", "quantity": 2, "unit": "kg", "use_by": "2026-10-18", "usable": true},
+    {"ingredient": "tomatoes", "quantity": 2, "unit": "kg", "use_by": "2026-10-18", "usable": true},
+    {"ingredient": "onion", "quantity": 1, "unit": "kg", "use_by": "2026-10-19", "usable": true},
+    {"ingredient": "garlic", "quantity": 100, "unit": "g", "use_by": "2026-10-24", "usable": true},
+    {"ingredient": "olive oil", "quantity": 1, "unit": "litre", "use_by": "2026-11-17", "usable": true},
+    {"ingredient": "salt", "quantity": 500, "unit": "g", "use_by": "2026-12-17", "usable": true},
+    {"ingredient": "black pepper", "quantity": 100, "unit": "g", "use_by": "2026-12-17", "usable": true},
+    {"ingredient": "rice", "quantity": 2, "unit": "kg", "use_by": "2026-11-17", "usable": true},
+    {"ingredient": "water", "quantity": 5, "unit": "litre", "use_by": "2026-10-24", "usable": true}
+  ]
+}

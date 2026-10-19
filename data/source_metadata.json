@@ -1,0 +1,17 @@
+{
+  "source_url": "https://www.kaggle.com/datasets/irkaal/foodcom-recipes-and-reviews",
+  "source_file": "recipes.csv",
+  "retrieved_date": "2026-10-17",
+  "license_as_stated_by_publisher": "CC0: Public Domain",
+  "original_field_count": 28,
+  "source_rows_scanned_for_sampling": 522517,
+  "selection_counts": {
+    "source_rows_scanned": 522517,
+    "excluded_before_deduplication": 204351,
+    "duplicate_ingredient_sets_after_filter": 8519,
+    "eligible_unique_rows": 309647
+  },
+  "analysis_sample_rows": 8000,
+  "sample_seed": 42,
+  "note": "The full source is used only to select the reproducible sample. EDA and models use the 8,000-record sample."
+}

@@ -1,0 +1,122 @@
+{
+  "source_url": "https://www.kaggle.com/datasets/irkaal/foodcom-recipes-and-reviews",
+  "source_file": "recipes.csv",
+  "retrieved_date": "2026-10-17",
+  "license_as_stated_by_publisher": "CC0: Public Domain",
+  "rows": 8000,
+  "fields": [
+    "recipe_id",
+    "name",
+    "category",
+    "ingredients",
+    "source_ingredients",
+    "source_quantities",
+    "servings",
+    "instructions",
+    "calories_source",
+    "protein_source",
+    "published_at"
+  ],
+  "field_count": 11,
+  "sample_seed": 42,
+  "sample_filter": "Valid name; 3-20 distinct normalized ingredients; positive known servings; duplicate normalized ingredient sets removed; reservoir sampling with seed 42.",
+  "missing": {
+    "recipe_id": 0,
+    "name": 0,
+    "category": 0,
+    "ingredients": 0,
+    "source_ingredients": 0,
+    "source_quantities": 0,
+    "servings": 0,
+    "instructions": 0,
+    "calories_source": 0,
+    "protein_source": 0,
+    "published_at": 0
+  },
+  "quality_flags": {
+    "quantity_ingredient_length_mismatch": 6209,
+    "quantity_vector_has_missing_entry": 2897,
+    "servings_above_20": 470
+  },
+  "ingredient_count_histogram": {
+    "3": 454,
+    "4": 665,
+    "5": 828,
+    "6": 851,
+    "7": 948,
+    "8": 960,
+    "9": 825,
+    "10": 658,
+    "11": 549,
+    "12": 410,
+    "13": 314,
+    "14": 204,
+    "15": 121,
+    "16": 89,
+    "17": 61,
+    "18": 33,
+    "19": 19,
+    "20": 11
+  },
+  "ingredient_count": {
+    "minimum": 3,
+    "q1": 6.0,
+    "median": 8.0,
+    "q3": 10.0,
+    "maximum": 20,
+    "mean": 8.117125
+  },
+  "servings": {
+    "minimum": 1.0,
+    "q1": 4.0,
+    "median": 6.0,
+    "q3": 8.0,
+    "maximum": 608.0,
+    "mean": 8.35825
+  },
+  "top_categories": [
+    [
+      "Dessert",
+      887
+    ],
+    [
+      "Lunch/Snacks",
+      541
+    ],
+    [
+      "One Dish Meal",
+      538
+    ],
+    [
+      "Vegetable",
+      481
+    ],
+    [
+      "Breakfast",
+      344
+    ],
+    [
+      "Chicken",
+      242
+    ],
+    [
+      "Pork",
+      232
+    ],
+    [
+      "Chicken Breast",
+      221
+    ],
+    [
+      "Meat",
+      210
+    ],
+    [
+      "Beverages",
+      203
+    ]
+  ],
+  "publication_year_min": 1999,
+  "publication_year_max": 2020,
+  "missing_definition": "Top-level None, empty string or empty list. Missing entries inside source quantity vectors are reported separately as a quality flag."
+}

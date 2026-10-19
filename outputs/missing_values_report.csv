@@ -1,0 +1,12 @@
+,missing_count,missing_percentage,dtype
+recipe_id,0,0.0,str
+name,0,0.0,str
+category,0,0.0,str
+ingredients,0,0.0,object
+source_ingredients,0,0.0,object
+source_quantities,0,0.0,object
+servings,0,0.0,float64
+instructions,0,0.0,object
+calories_source,0,0.0,float64
+protein_source,0,0.0,float64
+published_at,0,0.0,str
