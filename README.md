@@ -1,5 +1,7 @@
 # FoodWise
 
+## You may not be wise; but from now on, you will be FoodWise!
+
 **AI-Powered Recipe Recommendations for Sustainable Food Consumption**  
 *Assignment 1: Project Selection & Exploratory Data Analysis (EDA)*  
 *Group 5: Sunar, Tan, Açıkel, Özyakup*
